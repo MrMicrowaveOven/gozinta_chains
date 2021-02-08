@@ -3,8 +3,8 @@ import math
 def how_many_primes(n):
     total = 0
     for i in range(2, n):
-        if i % (10**9) == 0:
-            print(i)
+        # if i % (10**) == 0:
+        #     print(i)
         if is_prime(i):
             total += 1
     return total
@@ -22,4 +22,4 @@ def is_prime(n):
 # print(is_prime(8))
 # print(is_prime(12))
 
-print("Total: " + str(how_many_primes(10**12)))
+print("Total: " + str(how_many_primes(10**6)))
